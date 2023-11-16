@@ -1,5 +1,3 @@
 scikit-learn-extra
-
-plotly
-
 openpyxl
+plotly
