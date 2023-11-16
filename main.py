@@ -7,7 +7,7 @@ import numpy as np
 
 st.title('Clustering Lokasi Gempa')
 
-dirty_df = pd.read_excel('.\Data_Sulteng_2018_2022.xlsx')
+dirty_df = pd.read_excel('./Data_Sulteng_2018_2022.xlsx')
 
 new_df = dirty_df.drop(['No', 'Date', 'Origin Time ', 'Remarks'], axis=1)
 
